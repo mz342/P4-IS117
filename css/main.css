@@ -1,0 +1,80 @@
+/*DEVELOPER: Mohammed Zreik, IS117-006, Spring 2022 */
+
+.heading
+{
+    text-align: center;
+    color: red;
+    margin: 20px;
+}
+.center-image
+{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+body
+{
+    padding: 10px;
+}
+.footer
+{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: green;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+.heading-image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 300px;
+
+}
+.contact-form
+{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: lightseagreen;
+}
+
+input{
+    margin:10px
+}
+
+textarea{
+    margin:10px
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .table-trending
+  {
+margin-top:20px ;
+background-color: lightseagreen;
+  }
+
+  
