@@ -1,0 +1,144 @@
+<!-- DEVELOPER: Mohammed Zreik, IS117-006, Spring 2022  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trending Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"
+></script>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+        <nav
+        class="navbar navbar-expand-md justify-content-start bg-success navbar-dark col-12"
+      >
+        <a class="navbar-brand" href="index.html">Crypto Exchange</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html">Trending Crypto </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="history.html"
+                id="navbardrop"
+                data-toggle="dropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Crypto History
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="history.html">History</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="bitcoin.html">Bitcoin</a>
+                <a class="dropdown-item" href="ethereum.html">Ethereum</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>   
+      <h1 class="heading">Trending Crypto Currencies (7-day Breakdown)</h1>
+     <table class="table-trending">
+         <th>
+            
+             <td>Name</td>
+             <td>Price</td>
+             <td>7d</td>
+             <td>Market Cap</td>
+             <td>Volume</td>
+         </th>
+         <tbody>
+             <tr>
+                 <td>1</td>
+               
+                <td>Bitcoin</td>
+                <td>$39,713.34	</td>
+                <td style="color: red;">1.00%</td>
+                <td>$755,389,726,415</td>
+                <td>$17,582,901,278</td>                 
+             </tr>
+             <tr>
+                <td>2</td>
+                <td>Ape Coin</td>
+                <td>$17.15</td>
+                <td style="color: green;">45.31%</td>
+                <td>$4,885,732,162</td>
+                <td>$1,427,381,133</td>
+                 
+             </tr>
+             <tr>
+                <td>3</td>
+                <td>Shiba Inu</td>
+                <td>$0.00002388	</td>
+                <td style="color: red;">1.40%</td>
+                <td>$13,113,801,590	</td>
+                <td>$342,127,136</td>
+                 
+             </tr>
+             <tr>
+                <td>4</td>
+                <td>Solana</td>
+                <td>$100.63</td>
+                <td  style="color: red;">2.35%</td>
+                <td>$33,565,929,666</td>
+                <td>$799,335,006</td>
+                 
+             </tr>
+         </tbody>
+     </table>
+    </section>
+
+    <footer>
+      <div class="footer" style="position: fixed !important;">
+        <div class="row">
+          <h6>Mohammed Zreik, 2022 | Terms Of Use | Privacy Statement</h6>
+        </div>
+      </div>
+    </footer>
+
+   
+  </body>
+</html>
